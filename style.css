@@ -1,0 +1,131 @@
+body{
+    background-color: aliceblue;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    background: url(img/HERO.jpg) center;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.img-prof{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+p{
+    color: aqua;
+    font-size: x-large;
+    
+}
+.btn{
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.btn:hover{
+    background-color: blue;
+    color: chartreuse;
+    border-radius: 5px;
+}
+h2{
+    padding: 10px 0;
+    background-color: blue;
+    text-decoration: underline;
+    font-size: xx-large;
+    text-align: center;
+    border-radius: 6px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.card{
+    background-color: black;
+    margin: 1px;
+    border-radius: 5px;
+    text-align: center;
+   
+}
+h3{
+    color: aliceblue;
+    text-decoration: underline;
+    font-size: x-large;
+}
+.img{
+    width: 500px;
+    height: 200px;
+    border-radius: 8px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    gap: 1rem;
+}
+input,textarea{
+    background-color: whitesmoke;
+    height: 30px;
+    padding: 0.4rem;
+    border-radius: 6px;
+}
+.submit{
+    background-color: blue;
+    color: aliceblue;
+    height: 50px;
+    font-size: xx-large;
+}
+.submit:hover{
+    background-color: lightblue;
+    color: black;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    height: 50px;
+    font-size: x-large;
+    border-radius: 8px;
+}
+.button:hover{
+    background-color: aqua;
+    color: black;
+    border-radius: 5px;
+}
+
+footer{
+    padding: 10px 0;
+    background-color: blue;
+    color: beige;
+    border-radius: 6px;
+    text-align: center;
+}
+@media(max-width:480px){
+    .img-prof{
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+    }
+    h2{
+        padding: 5px 0;
+    }
+    .container{
+        grid-template-columns: 1fr;
+    }
+    .img{
+        width: 300px;
+    }
+}
