@@ -18,6 +18,9 @@ body{
     width: 200px;
     border-radius: 100px;
 }
+.img-prof:hover{
+   border-radius: 10px;
+}
 p{
     color: aqua;
     font-size: x-large;
@@ -27,6 +30,7 @@ p{
     background-color: yellow;
     color: black;
     padding: 10px 20px;
+    text-align: center;
     text-decoration: none;
     border-radius: 8px;
 }
@@ -49,11 +53,15 @@ h2{
     gap: 1rem;
 }
 .card{
-    background-color: black;
+    background-color: blueviolet;
     margin: 1px;
-    border-radius: 5px;
+    border-radius: 15px;
     text-align: center;
    
+}
+.card:hover{
+    background-color: gold;
+    border-radius: 25px;
 }
 h3{
     color: aliceblue;
@@ -72,7 +80,7 @@ form{
     gap: 1rem;
 }
 input,textarea{
-    background-color: whitesmoke;
+    background-color: cyan;
     height: 30px;
     padding: 0.4rem;
     border-radius: 6px;
@@ -92,12 +100,12 @@ input,textarea{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: black;
+    background-color: blue;
     color: white;
     text-decoration: none;
     padding: 8px 12px;
     height: 50px;
-    font-size: x-large;
+    font-size: xx-large;
     border-radius: 8px;
 }
 .button:hover{
@@ -113,11 +121,15 @@ footer{
     border-radius: 6px;
     text-align: center;
 }
+
 @media(max-width:480px){
     .img-prof{
         height: 100px;
         width: 100px;
         border-radius: 50px;
+    }
+    .img-prof:hover{
+        border-radius: 10px;
     }
     h2{
         padding: 5px 0;
@@ -128,4 +140,5 @@ footer{
     .img{
         width: 300px;
     }
+    
 }
